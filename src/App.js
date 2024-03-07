@@ -47,7 +47,7 @@ export function App(params) {
   };
 
   let onSaveClick = function () {
-    if (mode === "Add") {     //by adding additional functionality here,it allows the post and put methods to be called in order to determine what should be done in the fields depending on the mode
+    if (mode === "Add") {     //by adding additional functionality here,it allows the post and put methods to be called in order to determine what should be done in the fields depending on the modes
       post(formObject);
     }
     if (mode === "Update") {
