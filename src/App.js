@@ -66,10 +66,6 @@ export function App(params) {
         onCustomerSelect={handleListClick}
         selectedCustomerId={formObject.id}
       />
-      <div className="boxed">
-        <div>
-          <h4>{mode}</h4>
-        </div>
         <CustomerForm
           formObject={formObject}
           handleInputChange={handleInputChange}
@@ -77,10 +73,6 @@ export function App(params) {
           onSaveClick={onSaveClick}
           onCancelClick={onCancelClick}
         />
-        <div>
-          <h4>{mode}</h4>
-        </div>
-      </div>
     </div>
   );
 }
