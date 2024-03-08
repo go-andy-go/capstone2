@@ -59,10 +59,10 @@ export function App(params) {
     setFormObject(blankCustomer);
   };
 
-  return (
+  return (   //removed original code here and refactored to create separate components
     <div>
       <CustomerList
-        customers={customers} //removed original code here and refactored to create separate component
+        customers={customers} 
         onCustomerSelect={handleListClick}
         selectedCustomerId={formObject.id}
       />
